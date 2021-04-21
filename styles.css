@@ -115,9 +115,7 @@ footer a:hover {
 
 /* Media queries for mobile devices */
 
-@media screen and (max-width: 500px) {
-
-	
+@media screen and (max-width: 500px) {	
 
 	.navigation {
 		position: fixed;
@@ -131,11 +129,11 @@ footer a:hover {
 		display: none;
 	}
   	
-	.navigation img {
-		float: left;
-		width: 145px;
-		margin-top: 0;
-		padding: 0;
+	.navigation img {	
+        float: left;	
+        height: 80px;
+        width: auto;		
+		padding: 0.5rem;
 	}
 
 	.navigation .icon {
@@ -188,7 +186,7 @@ footer a:hover {
 	.navbar-links.responsive{
 		position: absolute;
 		top: 67px;
-		background-color: rgba(7, 105, 173, 0.9);
+		background-color: #052434;
 		width: 100%;
 		padding: 0 20px;
 	}
@@ -196,8 +194,6 @@ footer a:hover {
     	display: block;
 		text-align: left;
 		padding: 20px 0;
-  	}
-
-	
+  	}	
 
 }	
